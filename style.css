@@ -4,11 +4,11 @@ body {
 
 :root {
     --fonte-titulo: "bebas neue", sans-serif;
-    --rosa: hotpink;
-    --ouro: gold;
-    --cinza: gray;
-    --verde: chartreuse;
-    --azul-claro: cornflowerblue;
+    --rosa: rgb(129, 25, 199);
+    --ouro: rgb(152, 77, 212);
+    --cinza: rgb(202, 180, 200);
+    --verde: rgb(211, 16, 195);
+    --azul-claro: rgba(86, 36, 167, 0.267);
 
 }
 
@@ -86,7 +86,7 @@ body {
     margin: 30px;
     text-align: center;
     font-size: 25px;
-    color: blue;
+    color: rgba(0, 38, 255, 0.733);
 
 }
 
@@ -126,7 +126,7 @@ label {
 
 .fraca {
   width: 25%;
-  background-color: red;
+  background-color: rgb(209, 18, 18);
 
 }
 
