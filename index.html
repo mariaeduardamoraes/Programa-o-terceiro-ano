@@ -1,80 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> gerador de senha </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=bebas+Neue&display=swap" rel="stylesheet">
+    <title>Você decide o futuro da IA</title>
 </head>
-
 <body>
-    <section class="secao">
-        <div class="conteudo-titulo">
-            <h1 class="titulo"> Gerador De Senha  </h1>
+    <div class="caixa-principal">
+        <h1>Vida Universitária</h1>
+        <h2>A vida universitária é uma fase de transição e descoberta para muitos jovens. Envolve uma mistura de experiências acadêmicas, sociais e pessoais, todas fundamentais para o crescimento e desenvolvimento pessoal. Na universidade, os alunos se dedicam aos estudos, participam de atividades extracurriculares e interagem com uma comunidade diversificada de colegas e professores. Esta fase também é marcada pela independência, onde os alunos aprendem a gerenciar seu próprio tempo, finanças e responsabilidades. Apesar dos desafios acadêmicos e emocionais, a vida universitária oferece oportunidades únicas para explorar interesses, desenvolver habilidades e construir relacionamentos significativos, preparando os alunos para o futuro e para a vida adulta.
+
+
+
+        </h2>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
         </div>
-
-        <div class="conteudo-senha">
-            <label for="senha"> senha: </label>
-            <input type="text" id="campo-senha" readonly>
-        </div>
-
-        <div class="parametro">
-            <h1 class="parametro-titulo"> personalize sua senha </h1>
-
-            <div class="parametro-senha">
-
-                <h4 class="parametro-senha-titulo"> Número de Caracteres </h4>
-                <div clas="parametro-senha-botoes">
-                    <button class="parametro-senha__botao">-</button>
-                    <p class="parametro-senha__texto">12</p>
-                    <button class="parametro-senha__botao">+</button>
-                </div>
-            </div>
-
-            <div class="parametro-senha">
-                <h4 class="parametro-senha-titulo">Características Da Senha </h4>
-                <div class="parametro-senha-checkbox">
-                    <input name="maiusculo" type="checkbox" class="checkbox" checked>
-                    <label for="maiusculo">letras maiusculas </label>
-                </div>
-
-                <div class="parametro-senha-checkbox">
-                    <input name="minusculo" type="checkbox" class="checkbox" checked>
-                    <label for="minusculo">letras minusculas </label>
-                </div>
-
-                <div class="parametro-senha-checkbox">
-                    <input name="numero" type="checkbox" class="checkbox" checked>
-                    <label for="numero">numeros </label>
-                </div>
-
-                <div class="parametro-senha-checkbox">
-                    <input name="simbolo" type="checkbox" class="checkbox" checked>
-                    <label for="simbolo">simbolos</label>
-                </div>
-            </div>
-
-            <div class="parametro-senha">
-                <h4 class="parametro-senha-titulo">força da senha </h4>
-                <div class="barra"></div>
-                <div class="forca media"></div>
-                <div class="parametro-senha-textos">
-                    <p>Fraca</p>
-                    <p>Media</p>
-                    <p>Forte</p>
-                </div>
-                <p class="entropia"></p>
-            </div>
-
-        </div>
-
-    </section>
-    <script src="main.js"></script>
-
+    </div>
+    <script src="script.js"></script>
 </body>
-
 </html>
